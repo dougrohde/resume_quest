@@ -1,0 +1,1597 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0xa361dd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xa361dd0" />
+  <item nodeId="node-0xa361dd0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+resume_quest
+An Interactive Fiction by Doug Rohde
+Release 1 / Serial number 130702 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Office
+You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
+
+On the desk is an old computer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="152">NO</temporary>
+    <children>
+      <child nodeId="node-0xd141680" />
+      <child nodeId="node-0xd140b20" />
+      <child nodeId="node-0xd141370" />
+      <child nodeId="node-0xd1409d0" />
+      <child nodeId="node-0xd1408f0" />
+      <child nodeId="node-0xd140730" />
+      <child nodeId="node-0xd140500" />
+      <child nodeId="node-0xd13fcb0" />
+      <child nodeId="node-0xd13f620" />
+      <child nodeId="node-0xa361ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa361ff0">
+    <command xml:space="preserve">Look</command>
+    <result xml:space="preserve">Office
+You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
+
+On the desk is an old computer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa362040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa362040">
+    <command xml:space="preserve">Use computer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa362090" />
+    </children>
+  </item>
+  <item nodeId="node-0xa362090">
+    <command xml:space="preserve">Boot computer</command>
+    <result xml:space="preserve">The computer needs a floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3620e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3620e0">
+    <command xml:space="preserve">Insert floppy disk</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa362130" />
+    </children>
+  </item>
+  <item nodeId="node-0xa362130">
+    <command xml:space="preserve">Find a floppy disk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3621a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3621a0">
+    <command xml:space="preserve">Insert disk into hard drive</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa362290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa362290">
+    <command xml:space="preserve">Look in the desk to find a floppy disk</command>
+    <result xml:space="preserve">I only understood you as far as wanting to look in the desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3622e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3622e0">
+    <command xml:space="preserve">Look in the small room to find a floppy disk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa362330" />
+    </children>
+  </item>
+  <item nodeId="node-0xa362330">
+    <command xml:space="preserve">Look in the dark room to find a floppy disk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3623a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3623a0">
+    <command xml:space="preserve">Open the desk to find a floppy disk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa362410" />
+    </children>
+  </item>
+  <item nodeId="node-0xa362410">
+    <command xml:space="preserve">Look in the filing cabinet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e480" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e480">
+    <command xml:space="preserve">Look in the filing cabinet for a floppy disk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xa362210" />
+    </children>
+  </item>
+  <item nodeId="node-0xa362210">
+    <command xml:space="preserve">grab the floppy disk from the desk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e4d0">
+    <command xml:space="preserve">S</command>
+    <result xml:space="preserve">
+Storage Room
+You are in a small, cluttered room.
+
+There is a black metal filing cabinet buried under a mountain of papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e540" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e540">
+    <command xml:space="preserve">Open file cabinet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e5b0">
+    <command xml:space="preserve">Look cabinet</command>
+    <result xml:space="preserve">It is a black metal filing cabinet with one drawer slightly ajar.
+
+In the filing cabinet is the drawer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e620" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e620">
+    <command xml:space="preserve">Open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing a floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e690" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e690">
+    <command xml:space="preserve">grab disk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e700" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e700">
+    <command xml:space="preserve">Take Disk</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e3c0">
+    <command xml:space="preserve">Insert disk in computer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e410" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e410">
+    <command xml:space="preserve">Go back into room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e8f0">
+    <command xml:space="preserve">Disk in computer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e960" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e960">
+    <command xml:space="preserve">Take disk to computer</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take the floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e9d0">
+    <command xml:space="preserve">N</command>
+    <result xml:space="preserve">
+Office
+You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
+
+On the desk is an old computer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ea40" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ea40">
+    <command xml:space="preserve">Insert floppy disk</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13eab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13eab0">
+    <command xml:space="preserve">Go to desk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13eb20" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13eb20">
+    <command xml:space="preserve">Insert disk</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13eb90" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13eb90">
+    <command xml:space="preserve">Put disk into disk drive</command>
+    <result xml:space="preserve">(the floppy disk into the disk drive)
+You put the floppy disk into the disk drive.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ec00" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ec00">
+    <command xml:space="preserve">start program</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ec70" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ec70">
+    <command xml:space="preserve">Open program</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ece0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ece0">
+    <command xml:space="preserve">Boot disk</command>
+    <result xml:space="preserve">Which do you mean, the disk drive or the floppy disk?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ed50" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ed50">
+    <command xml:space="preserve">floppy disk</command>
+    <result xml:space="preserve">That&apos;s not something you can switch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e770" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e770">
+    <command xml:space="preserve">Boot floppy disk</command>
+    <result xml:space="preserve">That&apos;s not something you can switch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e7e0">
+    <command xml:space="preserve">Boot disk drive</command>
+    <result xml:space="preserve">That&apos;s not something you can switch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13e850" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13e850">
+    <command xml:space="preserve">turn on disk drive</command>
+    <result xml:space="preserve">That&apos;s not something you can switch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f000" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f000">
+    <command xml:space="preserve">upload floppy disk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f070" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f070">
+    <command xml:space="preserve">open program on floppy disk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f0e0">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The following options are visible on the screen:
+
+1: Profile
+2: Work History
+3: Education
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f150" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f150">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f1c0">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f230" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f230">
+    <command xml:space="preserve">view profile</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f2a0">
+    <command xml:space="preserve">View Profile</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f310" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f310">
+    <command xml:space="preserve">View option 1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f380" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f380">
+    <command xml:space="preserve">type 1</command>
+    <result xml:space="preserve">This is about Doug
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f3f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f460" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f460">
+    <command xml:space="preserve">Tell me about Doug</command>
+    <result xml:space="preserve">You talk to yourself a while.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f4d0">
+    <command xml:space="preserve">Type 2</command>
+    <result xml:space="preserve">This is Doug&apos;s work history.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f540" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f540">
+    <command xml:space="preserve">Where did Doug work?</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f5b0">
+    <command xml:space="preserve">Type 3</command>
+    <result xml:space="preserve">This is Doug&apos;s education.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="151">YES</temporary>
+  </item>
+  <item nodeId="node-0xd13f620">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Storage Room
+You are in a small, cluttered room.
+
+There is a black metal filing cabinet buried under a mountain of papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13faf0" />
+      <child nodeId="node-0xd13f690" />
+      <child nodeId="node-0xd13f7e0" />
+      <child nodeId="node-0xd13eea0" />
+      <child nodeId="node-0xd13f8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f8c0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">That&apos;s not something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f930" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f930">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing a floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fa80" />
+      <child nodeId="node-0xd13f9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f9a0">
+    <command xml:space="preserve">get disk</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fa10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fa10">
+    <command xml:space="preserve">examine disk</command>
+    <result xml:space="preserve">You see nothing special about the floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+  </item>
+  <item nodeId="node-0xd13fa80">
+    <command xml:space="preserve">look at cabinet</command>
+    <result xml:space="preserve">In the filing cabinet is the drawer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0xd13eea0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">&apos;Storage Room&apos;
+You are in a small, cluttered room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ef10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ef10">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ef80" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ef80">
+    <command xml:space="preserve">look at filing cabinet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f770" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f770">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0xd13f7e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Office
+You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
+
+On the desk is a computer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f850" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f850">
+    <command xml:space="preserve">get computer</command>
+    <result xml:space="preserve">They don&apos;t make them like this anymore. You wouldn&apos;t want to damage it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+  </item>
+  <item nodeId="node-0xd13f690">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing a floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13f700" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13f700">
+    <command xml:space="preserve">look disk</command>
+    <result xml:space="preserve">The floppy disk is a 5.25 inch diskette with a small notch in the side.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13edc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13edc0">
+    <command xml:space="preserve">get disk</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ee30" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ee30">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a floppy disk
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+  </item>
+  <item nodeId="node-0xd13faf0">
+    <command xml:space="preserve">look cabinet</command>
+    <result xml:space="preserve">It is a black metal filing cabinet with one drawer slightly ajar.
+
+In the filing cabinet is the drawer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fb60" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fb60">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing a floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fbd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fbd0">
+    <command xml:space="preserve">get disk</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fc40" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fc40">
+    <command xml:space="preserve">examine disk</command>
+    <result xml:space="preserve">You see nothing special about the floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0xd13fcb0">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The computer needs a floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140260" />
+      <child nodeId="node-0xd13fd20" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fd20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Storage Room
+You are in a small, cluttered room.
+
+There is a black metal filing cabinet buried under a mountain of papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fd90" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fd90">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing a floppy disk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fe00" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fe00">
+    <command xml:space="preserve">get disk</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fe70" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fe70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Office
+You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
+
+On the desk is an old computer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13fee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13fee0">
+    <command xml:space="preserve">load disk into drive</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ff50" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ff50">
+    <command xml:space="preserve">load floppy disk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd13ffc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd13ffc0">
+    <command xml:space="preserve">put floppy disk into disk drive</command>
+    <result xml:space="preserve">You put the floppy disk into the disk drive.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140030" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140030">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The following options are visible on the screen:
+
+1: Profile
+2: Work History
+3: Education
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1400a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1400a0">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140110" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140110">
+    <command xml:space="preserve">type 1</command>
+    <result xml:space="preserve">This is about Doug
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140180" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140180">
+    <command xml:space="preserve">type 2</command>
+    <result xml:space="preserve">This is Doug&apos;s work history.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1401f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1401f0">
+    <command xml:space="preserve">type 3</command>
+    <result xml:space="preserve">This is Doug&apos;s education.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+  </item>
+  <item nodeId="node-0xd140260">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1402d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1402d0">
+    <command xml:space="preserve">type 1</command>
+    <result xml:space="preserve">This is about Doug
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140340" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140340">
+    <command xml:space="preserve">type 2</command>
+    <result xml:space="preserve">This is Doug&apos;s work history.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1403b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1403b0">
+    <command xml:space="preserve">type 3</command>
+    <result xml:space="preserve">This is Doug&apos;s education.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140420" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140420">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Dark Room
+It is very dark. You are likely to be eaten by a grue.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="89">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140490" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140490">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Office
+You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
+
+On the desk is an old computer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+  </item>
+  <item nodeId="node-0xd140500">
+    <command xml:space="preserve">ex computer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140570" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140570">
+    <command xml:space="preserve">look computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1405e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1405e0">
+    <command xml:space="preserve">look old computer&apos;s mouse</command>
+    <result xml:space="preserve">Just the ordinary wired variety.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140650" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140650">
+    <command xml:space="preserve">look computer&apos;s screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is currently blank.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1406c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1406c0">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+  </item>
+  <item nodeId="node-0xd140730">
+    <command xml:space="preserve">look computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1407a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1407a0">
+    <command xml:space="preserve">look computer screen</command>
+    <result xml:space="preserve"> The screen is dark.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140810" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140810">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140880" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140880">
+    <command xml:space="preserve">look screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+  </item>
+  <item nodeId="node-0xd1408f0">
+    <command xml:space="preserve">They don&apos;t make &apos;em like this anymore</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140960" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140960">
+    <command xml:space="preserve">get computer</command>
+    <result xml:space="preserve">They don&apos;t make &quot;em like this anymore. You wouldn&apos;t want to damage it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0xd1409d0">
+    <command xml:space="preserve">look at computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="71">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140ab0" />
+      <child nodeId="node-0xd140a40" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140a40">
+    <command xml:space="preserve">examine old computer computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+  </item>
+  <item nodeId="node-0xd140ab0">
+    <command xml:space="preserve">switch computer on</command>
+    <result xml:space="preserve">That&apos;s not something you can switch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+  </item>
+  <item nodeId="node-0xd141370">
+    <command xml:space="preserve">look screen</command>
+    <result xml:space="preserve"> The screen is dark.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="81">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1414c0" />
+      <child nodeId="node-0xd1413e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1413e0">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="81">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141450" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141450">
+    <command xml:space="preserve">look screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+  </item>
+  <item nodeId="node-0xd1414c0">
+    <command xml:space="preserve">look computer screen</command>
+    <result xml:space="preserve"> The screen is dark.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141530" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141530">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1415a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1415a0">
+    <command xml:space="preserve">look screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141610" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141610">
+    <command xml:space="preserve">look screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+  </item>
+  <item nodeId="node-0xd140b20">
+    <command xml:space="preserve">use computer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140b90">
+    <command xml:space="preserve">boot computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140c70" />
+      <child nodeId="node-0xd140c00" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140c00">
+    <command xml:space="preserve">look screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+  </item>
+  <item nodeId="node-0xd140c70">
+    <command xml:space="preserve">look computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140ce0">
+    <command xml:space="preserve">look old computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140d50">
+    <command xml:space="preserve">look old computer screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140dc0">
+    <command xml:space="preserve">look at old computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140e30" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140e30">
+    <command xml:space="preserve">look at the old computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140ea0">
+    <command xml:space="preserve">old computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140f10">
+    <command xml:space="preserve">old computer&apos;s mouse</command>
+    <result xml:space="preserve">Just the ordinary wired variety.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140f80" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140f80">
+    <command xml:space="preserve">the old computer!</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd140ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd140ff0">
+    <command xml:space="preserve">look at the old computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141060" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141060">
+    <command xml:space="preserve">look at the old computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1410d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1410d0">
+    <command xml:space="preserve">look at the old computer&apos;s mouse</command>
+    <result xml:space="preserve">Just the ordinary wired variety.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141140" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141140">
+    <command xml:space="preserve">look at the old computer&apos;s screen</command>
+    <result xml:space="preserve">The old computer&apos;s screen is displaying a generic system error.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1411b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1411b0">
+    <command xml:space="preserve">look at computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141220" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141220">
+    <command xml:space="preserve">get old computer</command>
+    <result xml:space="preserve">(the old computer)
+They don&apos;t make them like this anymore. You wouldn&apos;t want to damage it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141290" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141290">
+    <command xml:space="preserve">look at (the old computer)</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0xd141300" />
+    </children>
+  </item>
+  <item nodeId="node-0xd141300">
+    <command xml:space="preserve">examine the old computer</command>
+    <result xml:space="preserve">Which do you mean, the old computer, the old computer&apos;s mouse, the old computer&apos;s screen, the old computer&apos;s keyboard or the old computer&apos;s software?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+  </item>
+  <item nodeId="node-0xd141680">
+    <command xml:space="preserve">get computer</command>
+    <result xml:space="preserve">They don&apos;t make \&quot;em like this anymore. You wouldn&apos;t want to damage it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+  </item>
+</Skein>

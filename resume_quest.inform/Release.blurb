@@ -1,0 +1,55 @@
+! Blurb file created by Inform build 6G60
+
+status "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/drohde/resume_quest/resume_quest.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/drohde/resume_quest/resume_quest.inform"
+release to "/Users/drohde/resume_quest/resume_quest Materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "resume_quest.gblorb"
+storyfile "/Users/drohde/resume_quest/resume_quest.inform/Build/output.ulx" include
+ifiction "/Users/drohde/resume_quest/resume_quest.inform/Metadata.iFiction" include
+cover "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+picture 1 "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+release file "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Cover.jpg"
+release file "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "B888ADC0-96BF-43C2-8304-C56373C32EF8"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2014"
+placeholder [TITLE] = "resume_quest"
+placeholder [AUTHOR] = "Doug Rohde"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "resume_quest.gblorb.js"
+template path "/Users/drohde/resume_quest/resume_quest Materials/Templates"
+template path "/Users/drohde/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Templates"
+interpreter "Quixe" "g"
+base64 "/Users/drohde/resume_quest/resume_quest.inform/Build/output.ulx" to "/Users/drohde/resume_quest/resume_quest Materials/Release/interpreter/resume_quest.gblorb.js"
+
+! Website instructions
+
+template path "/Users/drohde/resume_quest/resume_quest Materials/Templates"
+template path "/Users/drohde/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line46"><img border=0 src=inform:/Reveal.tif></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||
