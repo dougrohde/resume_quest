@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0xa361dd0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xa361dd0" />
+  <activeNode nodeId="node-0xa0b5c00" />
   <item nodeId="node-0xa361dd0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-resume_quest
-An Interactive Fiction by Doug Rohde
+Resume Quest
+An Interactive Fiction
 Release 1 / Serial number 140607 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Office
@@ -18,8 +18,8 @@ On the desk is an old computer.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="152">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="61">NO</temporary>
     <children>
       <child nodeId="node-0xd141680" />
       <child nodeId="node-0xd140b20" />
@@ -647,10 +647,9 @@ There is a black metal filing cabinet buried under a mountain of papers.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="34">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
     <children>
-      <child nodeId="node-0xd13faf0" />
       <child nodeId="node-0xd13f690" />
       <child nodeId="node-0xd13f7e0" />
     </children>
@@ -686,92 +685,195 @@ On the desk is a computer.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
     <children>
-      <child nodeId="node-0xd13f700" />
+      <child nodeId="node-0xd1360d0" />
     </children>
   </item>
-  <item nodeId="node-0xd13f700">
-    <command xml:space="preserve">look disk</command>
-    <result xml:space="preserve">The floppy disk is a 5.25 inch diskette with a small notch in the side.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0xd13edc0" />
-    </children>
-  </item>
-  <item nodeId="node-0xd13edc0">
+  <item nodeId="node-0xd1360d0">
     <command xml:space="preserve">get disk</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
     <children>
-      <child nodeId="node-0xd13ee30" />
+      <child nodeId="node-0xa0548e0" />
     </children>
   </item>
-  <item nodeId="node-0xd13ee30">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a floppy disk
+  <item nodeId="node-0xa0548e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Office
+You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
+
+On the desk is an old computer.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-  </item>
-  <item nodeId="node-0xd13faf0">
-    <command xml:space="preserve">look cabinet</command>
-    <result xml:space="preserve">It is a black metal filing cabinet with one drawer slightly ajar.
-
-In the filing cabinet is the drawer.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
     <children>
-      <child nodeId="node-0xd13fb60" />
+      <child nodeId="node-0xa3aeab0" />
+      <child nodeId="node-0xa36c7f0" />
     </children>
   </item>
-  <item nodeId="node-0xd13fb60">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open the drawer, revealing a floppy disk.
+  <item nodeId="node-0xa36c7f0">
+    <command xml:space="preserve">put disk in computer</command>
+    <result xml:space="preserve">(the floppy disk in the old computer)
+You put the floppy disk into the disk drive.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
     <children>
-      <child nodeId="node-0xd13fbd0" />
+      <child nodeId="node-0xd118860" />
     </children>
   </item>
-  <item nodeId="node-0xd13fbd0">
-    <command xml:space="preserve">get disk</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0xd118860">
+    <command xml:space="preserve">turn on computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The following options are visible on the screen:
+
+1: Profile
+2: Work History
+3: Education
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
     <children>
-      <child nodeId="node-0xd13fc40" />
+      <child nodeId="node-0xa0b5c00" />
+      <child nodeId="node-0xa3a16a0" />
     </children>
   </item>
-  <item nodeId="node-0xd13fc40">
-    <command xml:space="preserve">examine disk</command>
-    <result xml:space="preserve">You see nothing special about the floppy disk.
+  <item nodeId="node-0xa3a16a0">
+    <command xml:space="preserve">press 2</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0xa35b600" />
+    </children>
+  </item>
+  <item nodeId="node-0xa35b600">
+    <command xml:space="preserve">type 2</command>
+    <result xml:space="preserve">Since 2009, Doug has worked at Sport Ngin in Minneapolis, where he is a Senior Engineer. He has been heavily involved with many of their products, especially those that are sports-related.  Those projects include:
+Sitebuilder, the company&apos;s flagship product, a CMS with integrated tools for sports organizations.  Built on Rails and MySQL, Doug contributed to numerous features, both front- and back-end.
+Stat Ngin, a service for storing and serving the platform&apos;s sports and stats related data.  Doug was responsible for building, architecting, and migrating data to this API which serves millions of requests per day. It is a Rails-based application, backed by MongoDB.
+Sport Ngin Live, which is a subset of Stat Ngin along iwth Javascript client apps, allows users to record and publish game data in real time.  Doug developed an elegant Ruby DSL which allows users to easily configure the events and stats for any sport. He also worked in a product design capacity to develop the workflow of the client applications.
+Tournament, a tournament-management application.  This manages the complex rules and data needed to manage tournament events.
+In addition to coding work, Doug started Lightning Club at Sport Ngin, which is an informal gathering of developers to give short talks, followed by critiques, to help developers improve their public speaking skills.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0xa0b5c00">
+    <command xml:space="preserve">type 2</command>
+    <result xml:space="preserve">Since 2009, Doug has worked at Sport Ngin in Minneapolis, where he is a Senior Engineer. He has been heavily involved with many of their products, especially those that are sports-related.  Those projects include:
+
+Sitebuilder, the company&apos;s flagship product, a CMS with integrated tools for sports organizations.  Built on Rails and MySQL, Doug contributed to numerous features, both front- and back-end.
+
+Stat Ngin, a service for storing and serving the platform&apos;s sports and stats related data.  Doug was responsible for building, architecting, and migrating data to this API which serves millions of requests per day. It is a Rails-based application, backed by MongoDB.
+
+Sport Ngin Live, which is a subset of Stat Ngin along with Javascript client apps, allows users to record and publish game data in real time.  Doug developed an elegant Ruby DSL which allows users to easily configure the events and stats for any sport. He also worked in a product design capacity to develop the workflow of the client applications.
+
+Tournament, a tournament-management application.  This manages the complex rules and data needed to manage tournament events.
+
+In addition to coding work, Doug started Lightning Club at Sport Ngin, which is an informal gathering of developers to give short talks, followed by critiques, to help developers improve their public speaking skills.
+
+
+Prior to working a Sport Ngin, Doug spent over 3 years at Ratchet, a client development firm in Minneapolis.  At Ratchet, Doug worked mostly in C# and ASP.Net on a variety of projects, including: 
+Explore Minnesota Tourism (C#, ASP.Net)  
+Tablespoon.com (C#, ASP.Net, jQuery, Endeca);
+Leaguesafe (C#, ASP.Net);
+a catalog management application (VB.Net, ASP.Net);
+a construction job estimation tool (C#, ASP.Net);various Regis websites (Coldfusion)
+
+Before Ratchet, Doug worked at:
+
+Best Buy (contract) - Analysis of direct marketing campaigns (SAS)
+Prudential - Analysis of life insurance retention call center data (SAS, SQL Server, Excel); Internal tool and application development (MS Access, VB.Net)
+
+Federal Reserve Board of Governors, Washington, DC - Research assistant supporting economists&quot; work studying research on small business finances (SAS, Stata, Unix)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0xa3aeab0">
+    <command xml:space="preserve">use disk in computer</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0xa0d6970" />
+    </children>
+  </item>
+  <item nodeId="node-0xa0d6970">
+    <command xml:space="preserve">put disk in computer</command>
+    <result xml:space="preserve">(the floppy disk in the old computer)
+You put the floppy disk into the disk drive.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0xa3f03d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa3f03d0">
+    <command xml:space="preserve">turn on computer</command>
+    <result xml:space="preserve">The old computer chimes cheerfully.
+
+The following options are visible on the screen:
+
+1: Profile
+2: Work History
+3: Education
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x204bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x204bd0">
+    <command xml:space="preserve">type 2</command>
+    <result xml:space="preserve">Since 2009, Doug has worked at Sport Ngin in Minneapolis, where he is a Senior Engineer. He has been heavily involved with many of their products, especially those that are sports-related.  Those projects include:
+
+Sitebuilder, the company&apos;s flagship product, a CMS with integrated tools for sports organizations.  Built on Rails and MySQL, Doug contributed to numerous features, both front- and back-end.
+
+Stat Ngin, a service for storing and serving the platform&apos;s sports and stats related data.  Doug was responsible for building, architecting, and migrating data to this API which serves millions of requests per day. It is a Rails-based application, backed by MongoDB.
+
+Sport Ngin Live, which is a subset of Stat Ngin along iwth Javascript client apps, allows users to record and publish game data in real time.  Doug developed an elegant Ruby DSL which allows users to easily configure the events and stats for any sport. He also worked in a product design capacity to develop the workflow of the client applications.
+
+Tournament, a tournament-management application.  This manages the complex rules and data needed to manage tournament events.
+
+In addition to coding work, Doug started Lightning Club at Sport Ngin, which is an informal gathering of developers to give short talks, followed by critiques, to help developers improve their public speaking skills.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
   </item>
   <item nodeId="node-0xd13fcb0">
     <command xml:space="preserve">boot computer</command>
@@ -1150,7 +1252,6 @@ The old computer&apos;s screen is displaying a generic system error.
     <changed>YES</changed>
     <temporary score="71">YES</temporary>
     <children>
-      <child nodeId="node-0xd140ab0" />
       <child nodeId="node-0xd140a40" />
     </children>
   </item>
@@ -1162,15 +1263,6 @@ The old computer&apos;s screen is displaying a generic system error.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
-  </item>
-  <item nodeId="node-0xd140ab0">
-    <command xml:space="preserve">switch computer on</command>
-    <result xml:space="preserve">That&apos;s not something you can switch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
   </item>
   <item nodeId="node-0xd141370">
     <command xml:space="preserve">look screen</command>

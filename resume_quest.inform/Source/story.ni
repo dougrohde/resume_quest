@@ -21,13 +21,13 @@ index        	title 		effect
 -- 	"Education"		open-Education rule
 
 This is the open-Profile rule:
-  say "This is about Doug"
+  say "Doug Rohde is a software developer who lives in Minneapolis, MN.  He mostly codes in Ruby these days, but has worked extensively in C# and SAS.[line break][line break]Doug's favorite band is Phish. He has seen them 38 times.[line break][line break]Doug also loves sports. He is an avid soccer fan and semi-competitive curler."
 
 This is the open-History rule:
-	say "This is Doug's work history."
+	say "Since 2009, Doug has worked at Sport Ngin in Minneapolis, where he is a Senior Engineer. He has been heavily involved with many of their products, especially those that are sports-related.  Those projects include:[line break][line break]Sitebuilder, the company's flagship product, a CMS with integrated tools for sports organizations.  Built on Rails and MySQL, Doug contributed to numerous features, both front- and back-end.[line break][line break]Stat Ngin, a service for storing and serving the platform's sports and stats related data.  Doug was responsible for building, architecting, and migrating data to this API which serves millions of requests per day. It is a Rails-based application, backed by MongoDB.[line break][line break]Sport Ngin Live, which is a subset of Stat Ngin along with Javascript client apps, allows users to record and publish game data in real time.  Doug developed an elegant Ruby DSL which allows users to easily configure the events and stats for any sport. He also worked in a product design capacity to develop the workflow of the client applications.[line break][line break]Tournament, a tournament-management application.  This manages the complex rules and data needed to manage tournament events.[line break][line break]In addition to coding work, Doug started Lightning Club at Sport Ngin, which is an informal gathering of developers to give short talks, followed by critiques, to help developers improve their public speaking skills.[line break][line break][line break]Prior to working a Sport Ngin, Doug spent over 3 years at Ratchet, a client development firm in Minneapolis.  At Ratchet, Doug worked mostly in C# and ASP.Net on a variety of projects, including: [line break]Explore Minnesota Tourism (C#, ASP.Net)  [line break]Tablespoon.com (C#, ASP.Net, jQuery, Endeca);[line break]Leaguesafe (C#, ASP.Net);[line break]a catalog management application (VB.Net, ASP.Net);[line break]a construction job estimation tool (C#, ASP.Net)[line break]various Regis websites (Coldfusion)[line break][line break]Before Ratchet, Doug worked at:[line break][line break]Best Buy (contract) - Analysis of direct marketing campaigns (SAS, Excel)[line break][line break]Prudential - Analysis of life insurance retention call center data (SAS, SQL Server, Excel); Internal tool and application development (MS Access, VB.Net)[line break][line break]Federal Reserve Board of Governors, Washington, DC - Research assistant supporting economists work studying research on small business finances (SAS, Stata, Unix)"
 	
 This is the open-Education rule:
-	say "This is Doug's education."
+	say "Doug graduated summa cum laude from the University of North Dakota in 2000 with a B.B.A in Business Economics."
 
 Before switching on the old computer:
 	if the disk drive does not contain the floppy disk:

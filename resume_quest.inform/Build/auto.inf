@@ -19121,24 +19121,24 @@ self = noun;
 ! This is the open-Profile rule:
 [ R_865 ;
       ! phrase 1
-      ! [1: say ~This is about Doug~]
-      say__p=1;ParaContent();  print (PrintText) SC_72;  .L_Say74; .L_SayX74;
+      ! [1: say ~Doug Rohde is a software developer who lives in Minneapolis, MN.  He mostly codes in Ruby these days, but has worked extensively in C# and SAS.[line break][line break]Doug's favorite band is Phish. He has seen them 38 times.[line break][line break]Doug also loves sports. He is an avid soccer fan and semi-competitive curler.~]
+      say__p=1;ParaContent();  print (PrintText) SC_72; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_73; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_74;  new_line; .L_Say74; .L_SayX74;
    rfalse;
 ];
 ! No specific request
 ! This is the open-History rule:
 [ R_866 ;
       ! phrase 1
-      ! [1: say ~This is Doug's work history.~]
-      say__p=1;ParaContent();  print (PrintText) SC_73;  new_line; .L_Say75; .L_SayX75;
+      ! [1: say ~Since 2009, Doug has worked at Sport Ngin in Minneapolis, where he is a Senior Engineer. He has been heavily involved with many of their products, especially those that are sports-related.  Those projects include:[line break][line break]Sitebuilder, the company's flagship product, a CMS with integrated tools for sports organizations.  Built on Rails and MySQL, Doug contributed to numerous features, both front- and back-end.[line break][line break]Stat Ngin, a service for storing and serving the platform's sports and stats related data.  Doug was responsible for building, architecting, and migrating data to this API which serves millions of requests per day. It is a Rails-based application, backed by MongoDB.[line break][line break]Sport Ngin Live, which is a subset of Stat Ngin along with Javascript client apps, allows users to record and publish game data in real time.  Doug developed an elegant Ruby DSL which allows users to easily configure the events and stats for any sport. He also worked in a product design capacity to develop the workflow of the client applications.[line break][line break]Tournament, a tournament-management application.  This manages the complex rules and data needed to manage tournament events.[line break][line break]In addition to coding work, Doug started Lightning Club at Sport Ngin, which is an informal gathering of developers to give short talks, followed by critiques, to help developers improve their public speaking skills.[line break][line break][line break]Prior to working a Sport Ngin, Doug spent over 3 years at Ratchet, a client development firm in Minneapolis.  At Ratchet, Doug worked mostly in C# and ASP.Net on a variety of projects, including: [line break]Explore Minnesota Tourism (C#, ASP.Net)  [line break]Tablespoon.com (C#, ASP.Net, jQuery, Endeca);[line break]Leaguesafe (C#, ASP.Net);[line break]a catalog management application (VB.Net, ASP.Net);[line break]a construction job estimation tool (C#, ASP.Net)[line break]various Regis websites (Coldfusion)[line break][line break]Before Ratchet, Doug worked at:[line break][line break]Best Buy (contract) - Analysis of direct marketing campaigns (SAS, Excel)[line break][line break]Prudential - Analysis of life insurance retention call center data (SAS, SQL Server, Excel); Internal tool and application development (MS Access, VB.Net)[line break][line break]Federal Reserve Board of Governors, Washington, DC - Research assistant supporting economists work studying research on small business finances (SAS, Stata, Unix)~]
+      say__p=1;ParaContent();  print (PrintText) SC_75; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_76; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_77; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_78; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_79; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_80; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_81; ParaContent();  new_line; ParaContent();  print (PrintText) SC_82; ParaContent();  new_line; ParaContent();  print (PrintText) SC_83; ParaContent();  new_line; ParaContent();  print (PrintText) SC_84; ParaContent();  new_line; ParaContent();  print (PrintText) SC_85; ParaContent();  new_line; ParaContent();  print (PrintText) SC_86; ParaContent();  new_line; ParaContent();  print (PrintText) SC_87; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_88; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_89; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_90; ParaContent();  new_line; ParaContent();  new_line; ParaContent();  print (PrintText) SC_91;  .L_Say75; .L_SayX75;
    rfalse;
 ];
 ! No specific request
 ! This is the open-Education rule:
 [ R_867 ;
       ! phrase 1
-      ! [1: say ~This is Doug's education.~]
-      say__p=1;ParaContent();  print (PrintText) SC_74;  new_line; .L_Say76; .L_SayX76;
+      ! [1: say ~Doug graduated summa cum laude from the University of North Dakota in 2000 with a B.B.A in Business Economics.~]
+      say__p=1;ParaContent();  print (PrintText) SC_92;  new_line; .L_Say76; .L_SayX76;
    rfalse;
 ];
 ! Definitions of adjectives
@@ -28318,10 +28318,10 @@ Verb meta 'tree'
        (Global_Vars-->9) = t_0; 
       ! phrase 2
       ! [2: if prior named noun acts plural or the prior named noun is the player , say ~are~]
-       if ((((PHR_744_r11 ((Global_Vars-->9))))) || ((((Global_Vars-->9) == player)))) { say__p=1;ParaContent();  print (PrintText) SC_75;  .L_Say78; .L_SayX78;  }
+       if ((((PHR_744_r11 ((Global_Vars-->9))))) || ((((Global_Vars-->9) == player)))) { say__p=1;ParaContent();  print (PrintText) SC_93;  .L_Say78; .L_SayX78;  }
       ! phrase 3
       ! [3: otherwise say ~is~]
-       else { say__p=1;ParaContent();  print (PrintText) SC_76;  .L_Say79; .L_SayX79;  }
+       else { say__p=1;ParaContent();  print (PrintText) SC_94;  .L_Say79; .L_SayX79;  }
    rfalse;
 ];
 ! Request 13: phrase nothing -> nothing
@@ -28344,10 +28344,10 @@ Verb meta 'tree'
        (Global_Vars-->9) = t_0; 
       ! phrase 2
       ! [2: if prior named noun acts plural or the prior named noun is the player , say ~Are~]
-       if ((((PHR_744_r11 ((Global_Vars-->9))))) || ((((Global_Vars-->9) == player)))) { say__p=1;ParaContent();  print (PrintText) SC_77;  .L_Say81; .L_SayX81;  }
+       if ((((PHR_744_r11 ((Global_Vars-->9))))) || ((((Global_Vars-->9) == player)))) { say__p=1;ParaContent();  print (PrintText) SC_95;  .L_Say81; .L_SayX81;  }
       ! phrase 3
       ! [3: otherwise say ~Is~]
-       else { say__p=1;ParaContent();  print (PrintText) SC_78;  .L_Say82; .L_SayX82;  }
+       else { say__p=1;ParaContent();  print (PrintText) SC_96;  .L_Say82; .L_SayX82;  }
    rfalse;
 ];
 ! Request 15: phrase nothing -> nothing
@@ -28370,10 +28370,10 @@ Verb meta 'tree'
        (Global_Vars-->9) = t_0; 
       ! phrase 2
       ! [2: if prior named noun acts plural or the prior named noun is the player , say ~Are~]
-       if ((((PHR_744_r11 ((Global_Vars-->9))))) || ((((Global_Vars-->9) == player)))) { say__p=1;ParaContent();  print (PrintText) SC_77;  .L_Say84; .L_SayX84;  }
+       if ((((PHR_744_r11 ((Global_Vars-->9))))) || ((((Global_Vars-->9) == player)))) { say__p=1;ParaContent();  print (PrintText) SC_95;  .L_Say84; .L_SayX84;  }
       ! phrase 3
       ! [3: otherwise say ~Is~]
-       else { say__p=1;ParaContent();  print (PrintText) SC_78;  .L_Say85; .L_SayX85;  }
+       else { say__p=1;ParaContent();  print (PrintText) SC_96;  .L_Say85; .L_SayX85;  }
    rfalse;
 ];
 ! Request 17: phrase nothing -> nothing
@@ -28396,14 +28396,14 @@ Verb meta 'tree'
        if ((((PHR_744_r11 (t_0)))) || (((t_0 == player))))  {
          ! phrase 2
          ! [2: say ~have~]
-         say__p=1;ParaContent();  print (PrintText) SC_79;  .L_Say87; .L_SayX87;
+         say__p=1;ParaContent();  print (PrintText) SC_97;  .L_Say87; .L_SayX87;
          ! phrase 3
          ! [3: otherwise]
          } else {
 
          ! phrase 4
          ! [4: say ~has~]
-         say__p=1;ParaContent();  print (PrintText) SC_80;  .L_Say88; .L_SayX88;
+         say__p=1;ParaContent();  print (PrintText) SC_98;  .L_Say88; .L_SayX88;
          ! phrase 5
          ! [5: end if]
          }
@@ -28421,14 +28421,14 @@ Verb meta 'tree'
        if ((((PHR_744_r11 (t_0)))) || (((t_0 == player))))  {
          ! phrase 2
          ! [2: say ~Have~]
-         say__p=1;ParaContent();  print (PrintText) SC_81;  .L_Say89; .L_SayX89;
+         say__p=1;ParaContent();  print (PrintText) SC_99;  .L_Say89; .L_SayX89;
          ! phrase 3
          ! [3: otherwise]
          } else {
 
          ! phrase 4
          ! [4: say ~Has~]
-         say__p=1;ParaContent();  print (PrintText) SC_82;  .L_Say90; .L_SayX90;
+         say__p=1;ParaContent();  print (PrintText) SC_100;  .L_Say90; .L_SayX90;
          ! phrase 5
          ! [5: end if]
          }
@@ -28458,14 +28458,14 @@ Verb meta 'tree'
        if ((((PHR_744_r11 (t_0)))) || (((t_0 == player))))  {
          ! phrase 3
          ! [3: say ~[']re~]
-         say__p=1;ParaContent();  print "'"; ParaContent();  print (PrintText) SC_83;  .L_Say92; .L_SayX92;
+         say__p=1;ParaContent();  print "'"; ParaContent();  print (PrintText) SC_101;  .L_Say92; .L_SayX92;
          ! phrase 4
          ! [4: otherwise]
          } else {
 
          ! phrase 5
          ! [5: say ~[']s~]
-         say__p=1;ParaContent();  print "'"; ParaContent();  print (PrintText) SC_84;  .L_Say93; .L_SayX93;
+         say__p=1;ParaContent();  print "'"; ParaContent();  print (PrintText) SC_102;  .L_Say93; .L_SayX93;
          ! phrase 6
          ! [6: end if]
          }
@@ -28508,7 +28508,7 @@ Verb meta 'tree'
 
          ! phrase 4
          ! [4: say ~es~]
-         say__p=1;ParaContent();  print (PrintText) SC_85;  .L_Say97; .L_SayX97;
+         say__p=1;ParaContent();  print (PrintText) SC_103;  .L_Say97; .L_SayX97;
          ! phrase 5
          ! [5: end if]
          }
@@ -28535,14 +28535,14 @@ Verb meta 'tree'
        if ((((PHR_744_r11 (t_0)))) || (((t_0 == player))))  {
          ! phrase 2
          ! [2: say ~y~]
-         say__p=1;ParaContent();  print (PrintText) SC_86;  .L_Say99; .L_SayX99;
+         say__p=1;ParaContent();  print (PrintText) SC_104;  .L_Say99; .L_SayX99;
          ! phrase 3
          ! [3: otherwise]
          } else {
 
          ! phrase 4
          ! [4: say ~ies~]
-         say__p=1;ParaContent();  print (PrintText) SC_87;  .L_Say100; .L_SayX100;
+         say__p=1;ParaContent();  print (PrintText) SC_105;  .L_Say100; .L_SayX100;
          ! phrase 5
          ! [5: end if]
          }
@@ -28593,32 +28593,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Those~]
-         say__p=1;ParaContent();  print (PrintText) SC_88;  .L_Say104; .L_SayX104;
+         say__p=1;ParaContent();  print (PrintText) SC_106;  .L_Say104; .L_SayX104;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say105; .L_SayX105;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say105; .L_SayX105;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~He~]
-         say__p=1;ParaContent();  print (PrintText) SC_90;  .L_Say106; .L_SayX106;
+         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say106; .L_SayX106;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~She~]
-         say__p=1;ParaContent();  print (PrintText) SC_91;  .L_Say107; .L_SayX107;
+         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say107; .L_SayX107;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~That~]
-         say__p=1;ParaContent();  print (PrintText) SC_92;  .L_Say108; .L_SayX108;
+         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say108; .L_SayX108;
          ! phrase 13
          ! [13: end if]
          }
@@ -28642,32 +28642,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~those~]
-         say__p=1;ParaContent();  print (PrintText) SC_93;  .L_Say109; .L_SayX109;
+         say__p=1;ParaContent();  print (PrintText) SC_111;  .L_Say109; .L_SayX109;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~you~]
-         say__p=1;ParaContent();  print (PrintText) SC_94;  .L_Say110; .L_SayX110;
+         say__p=1;ParaContent();  print (PrintText) SC_112;  .L_Say110; .L_SayX110;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~he~]
-         say__p=1;ParaContent();  print (PrintText) SC_95;  .L_Say111; .L_SayX111;
+         say__p=1;ParaContent();  print (PrintText) SC_113;  .L_Say111; .L_SayX111;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~she~]
-         say__p=1;ParaContent();  print (PrintText) SC_96;  .L_Say112; .L_SayX112;
+         say__p=1;ParaContent();  print (PrintText) SC_114;  .L_Say112; .L_SayX112;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~that~]
-         say__p=1;ParaContent();  print (PrintText) SC_97;  .L_Say113; .L_SayX113;
+         say__p=1;ParaContent();  print (PrintText) SC_115;  .L_Say113; .L_SayX113;
          ! phrase 13
          ! [13: end if]
          }
@@ -28691,32 +28691,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Those~]
-         say__p=1;ParaContent();  print (PrintText) SC_88;  .L_Say114; .L_SayX114;
+         say__p=1;ParaContent();  print (PrintText) SC_106;  .L_Say114; .L_SayX114;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say115; .L_SayX115;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say115; .L_SayX115;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~He~]
-         say__p=1;ParaContent();  print (PrintText) SC_90;  .L_Say116; .L_SayX116;
+         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say116; .L_SayX116;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~She~]
-         say__p=1;ParaContent();  print (PrintText) SC_91;  .L_Say117; .L_SayX117;
+         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say117; .L_SayX117;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~That~]
-         say__p=1;ParaContent();  print (PrintText) SC_92;  .L_Say118; .L_SayX118;
+         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say118; .L_SayX118;
          ! phrase 13
          ! [13: end if]
          }
@@ -28740,32 +28740,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Those~]
-         say__p=1;ParaContent();  print (PrintText) SC_88;  .L_Say119; .L_SayX119;
+         say__p=1;ParaContent();  print (PrintText) SC_106;  .L_Say119; .L_SayX119;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say120; .L_SayX120;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say120; .L_SayX120;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~He~]
-         say__p=1;ParaContent();  print (PrintText) SC_90;  .L_Say121; .L_SayX121;
+         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say121; .L_SayX121;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~She~]
-         say__p=1;ParaContent();  print (PrintText) SC_91;  .L_Say122; .L_SayX122;
+         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say122; .L_SayX122;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~That~]
-         say__p=1;ParaContent();  print (PrintText) SC_92;  .L_Say123; .L_SayX123;
+         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say123; .L_SayX123;
          ! phrase 13
          ! [13: end if]
          }
@@ -28789,32 +28789,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~those~]
-         say__p=1;ParaContent();  print (PrintText) SC_93;  .L_Say124; .L_SayX124;
+         say__p=1;ParaContent();  print (PrintText) SC_111;  .L_Say124; .L_SayX124;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~you~]
-         say__p=1;ParaContent();  print (PrintText) SC_94;  .L_Say125; .L_SayX125;
+         say__p=1;ParaContent();  print (PrintText) SC_112;  .L_Say125; .L_SayX125;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~he~]
-         say__p=1;ParaContent();  print (PrintText) SC_95;  .L_Say126; .L_SayX126;
+         say__p=1;ParaContent();  print (PrintText) SC_113;  .L_Say126; .L_SayX126;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~she~]
-         say__p=1;ParaContent();  print (PrintText) SC_96;  .L_Say127; .L_SayX127;
+         say__p=1;ParaContent();  print (PrintText) SC_114;  .L_Say127; .L_SayX127;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~that~]
-         say__p=1;ParaContent();  print (PrintText) SC_97;  .L_Say128; .L_SayX128;
+         say__p=1;ParaContent();  print (PrintText) SC_115;  .L_Say128; .L_SayX128;
          ! phrase 13
          ! [13: end if]
          }
@@ -28838,32 +28838,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Those~]
-         say__p=1;ParaContent();  print (PrintText) SC_88;  .L_Say129; .L_SayX129;
+         say__p=1;ParaContent();  print (PrintText) SC_106;  .L_Say129; .L_SayX129;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say130; .L_SayX130;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say130; .L_SayX130;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~He~]
-         say__p=1;ParaContent();  print (PrintText) SC_90;  .L_Say131; .L_SayX131;
+         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say131; .L_SayX131;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~She~]
-         say__p=1;ParaContent();  print (PrintText) SC_91;  .L_Say132; .L_SayX132;
+         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say132; .L_SayX132;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~That~]
-         say__p=1;ParaContent();  print (PrintText) SC_92;  .L_Say133; .L_SayX133;
+         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say133; .L_SayX133;
          ! phrase 13
          ! [13: end if]
          }
@@ -28896,32 +28896,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~they~]
-         say__p=1;ParaContent();  print (PrintText) SC_98;  .L_Say135; .L_SayX135;
+         say__p=1;ParaContent();  print (PrintText) SC_116;  .L_Say135; .L_SayX135;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~you~]
-         say__p=1;ParaContent();  print (PrintText) SC_94;  .L_Say136; .L_SayX136;
+         say__p=1;ParaContent();  print (PrintText) SC_112;  .L_Say136; .L_SayX136;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~he~]
-         say__p=1;ParaContent();  print (PrintText) SC_95;  .L_Say137; .L_SayX137;
+         say__p=1;ParaContent();  print (PrintText) SC_113;  .L_Say137; .L_SayX137;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~she~]
-         say__p=1;ParaContent();  print (PrintText) SC_96;  .L_Say138; .L_SayX138;
+         say__p=1;ParaContent();  print (PrintText) SC_114;  .L_Say138; .L_SayX138;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~it~]
-         say__p=1;ParaContent();  print (PrintText) SC_99;  .L_Say139; .L_SayX139;
+         say__p=1;ParaContent();  print (PrintText) SC_117;  .L_Say139; .L_SayX139;
          ! phrase 13
          ! [13: end if]
          }
@@ -28954,32 +28954,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~They~]
-         say__p=1;ParaContent();  print (PrintText) SC_100;  .L_Say141; .L_SayX141;
+         say__p=1;ParaContent();  print (PrintText) SC_118;  .L_Say141; .L_SayX141;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say142; .L_SayX142;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say142; .L_SayX142;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~He~]
-         say__p=1;ParaContent();  print (PrintText) SC_90;  .L_Say143; .L_SayX143;
+         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say143; .L_SayX143;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~She~]
-         say__p=1;ParaContent();  print (PrintText) SC_91;  .L_Say144; .L_SayX144;
+         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say144; .L_SayX144;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~It~]
-         say__p=1;ParaContent();  print (PrintText) SC_101;  .L_Say145; .L_SayX145;
+         say__p=1;ParaContent();  print (PrintText) SC_119;  .L_Say145; .L_SayX145;
          ! phrase 13
          ! [13: end if]
          }
@@ -29012,32 +29012,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~They~]
-         say__p=1;ParaContent();  print (PrintText) SC_100;  .L_Say147; .L_SayX147;
+         say__p=1;ParaContent();  print (PrintText) SC_118;  .L_Say147; .L_SayX147;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say148; .L_SayX148;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say148; .L_SayX148;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~He~]
-         say__p=1;ParaContent();  print (PrintText) SC_90;  .L_Say149; .L_SayX149;
+         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say149; .L_SayX149;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~She~]
-         say__p=1;ParaContent();  print (PrintText) SC_91;  .L_Say150; .L_SayX150;
+         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say150; .L_SayX150;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~It~]
-         say__p=1;ParaContent();  print (PrintText) SC_101;  .L_Say151; .L_SayX151;
+         say__p=1;ParaContent();  print (PrintText) SC_119;  .L_Say151; .L_SayX151;
          ! phrase 13
          ! [13: end if]
          }
@@ -29070,32 +29070,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~their~]
-         say__p=1;ParaContent();  print (PrintText) SC_102;  .L_Say153; .L_SayX153;
+         say__p=1;ParaContent();  print (PrintText) SC_120;  .L_Say153; .L_SayX153;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~your~]
-         say__p=1;ParaContent();  print (PrintText) SC_103;  .L_Say154; .L_SayX154;
+         say__p=1;ParaContent();  print (PrintText) SC_121;  .L_Say154; .L_SayX154;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~his~]
-         say__p=1;ParaContent();  print (PrintText) SC_104;  .L_Say155; .L_SayX155;
+         say__p=1;ParaContent();  print (PrintText) SC_122;  .L_Say155; .L_SayX155;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~her~]
-         say__p=1;ParaContent();  print (PrintText) SC_105;  .L_Say156; .L_SayX156;
+         say__p=1;ParaContent();  print (PrintText) SC_123;  .L_Say156; .L_SayX156;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~its~]
-         say__p=1;ParaContent();  print (PrintText) SC_106;  .L_Say157; .L_SayX157;
+         say__p=1;ParaContent();  print (PrintText) SC_124;  .L_Say157; .L_SayX157;
          ! phrase 13
          ! [13: end if]
          }
@@ -29128,32 +29128,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Their~]
-         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say159; .L_SayX159;
+         say__p=1;ParaContent();  print (PrintText) SC_125;  .L_Say159; .L_SayX159;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~Your~]
-         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say160; .L_SayX160;
+         say__p=1;ParaContent();  print (PrintText) SC_126;  .L_Say160; .L_SayX160;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~His~]
-         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say161; .L_SayX161;
+         say__p=1;ParaContent();  print (PrintText) SC_127;  .L_Say161; .L_SayX161;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~Her~]
-         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say162; .L_SayX162;
+         say__p=1;ParaContent();  print (PrintText) SC_128;  .L_Say162; .L_SayX162;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~Its~]
-         say__p=1;ParaContent();  print (PrintText) SC_111;  .L_Say163; .L_SayX163;
+         say__p=1;ParaContent();  print (PrintText) SC_129;  .L_Say163; .L_SayX163;
          ! phrase 13
          ! [13: end if]
          }
@@ -29186,32 +29186,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Their~]
-         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say165; .L_SayX165;
+         say__p=1;ParaContent();  print (PrintText) SC_125;  .L_Say165; .L_SayX165;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~Your~]
-         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say166; .L_SayX166;
+         say__p=1;ParaContent();  print (PrintText) SC_126;  .L_Say166; .L_SayX166;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~His~]
-         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say167; .L_SayX167;
+         say__p=1;ParaContent();  print (PrintText) SC_127;  .L_Say167; .L_SayX167;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~Her~]
-         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say168; .L_SayX168;
+         say__p=1;ParaContent();  print (PrintText) SC_128;  .L_Say168; .L_SayX168;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~Its~]
-         say__p=1;ParaContent();  print (PrintText) SC_111;  .L_Say169; .L_SayX169;
+         say__p=1;ParaContent();  print (PrintText) SC_129;  .L_Say169; .L_SayX169;
          ! phrase 13
          ! [13: end if]
          }
@@ -29244,32 +29244,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~them~]
-         say__p=1;ParaContent();  print (PrintText) SC_112;  .L_Say171; .L_SayX171;
+         say__p=1;ParaContent();  print (PrintText) SC_130;  .L_Say171; .L_SayX171;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~you~]
-         say__p=1;ParaContent();  print (PrintText) SC_94;  .L_Say172; .L_SayX172;
+         say__p=1;ParaContent();  print (PrintText) SC_112;  .L_Say172; .L_SayX172;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~him~]
-         say__p=1;ParaContent();  print (PrintText) SC_113;  .L_Say173; .L_SayX173;
+         say__p=1;ParaContent();  print (PrintText) SC_131;  .L_Say173; .L_SayX173;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~her~]
-         say__p=1;ParaContent();  print (PrintText) SC_105;  .L_Say174; .L_SayX174;
+         say__p=1;ParaContent();  print (PrintText) SC_123;  .L_Say174; .L_SayX174;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~it~]
-         say__p=1;ParaContent();  print (PrintText) SC_99;  .L_Say175; .L_SayX175;
+         say__p=1;ParaContent();  print (PrintText) SC_117;  .L_Say175; .L_SayX175;
          ! phrase 13
          ! [13: end if]
          }
@@ -29302,32 +29302,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Them~]
-         say__p=1;ParaContent();  print (PrintText) SC_114;  .L_Say177; .L_SayX177;
+         say__p=1;ParaContent();  print (PrintText) SC_132;  .L_Say177; .L_SayX177;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say178; .L_SayX178;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say178; .L_SayX178;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~Him~]
-         say__p=1;ParaContent();  print (PrintText) SC_115;  .L_Say179; .L_SayX179;
+         say__p=1;ParaContent();  print (PrintText) SC_133;  .L_Say179; .L_SayX179;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~Her~]
-         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say180; .L_SayX180;
+         say__p=1;ParaContent();  print (PrintText) SC_128;  .L_Say180; .L_SayX180;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~It~]
-         say__p=1;ParaContent();  print (PrintText) SC_101;  .L_Say181; .L_SayX181;
+         say__p=1;ParaContent();  print (PrintText) SC_119;  .L_Say181; .L_SayX181;
          ! phrase 13
          ! [13: end if]
          }
@@ -29360,32 +29360,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Them~]
-         say__p=1;ParaContent();  print (PrintText) SC_114;  .L_Say183; .L_SayX183;
+         say__p=1;ParaContent();  print (PrintText) SC_132;  .L_Say183; .L_SayX183;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~You~]
-         say__p=1;ParaContent();  print (PrintText) SC_89;  .L_Say184; .L_SayX184;
+         say__p=1;ParaContent();  print (PrintText) SC_107;  .L_Say184; .L_SayX184;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~Him~]
-         say__p=1;ParaContent();  print (PrintText) SC_115;  .L_Say185; .L_SayX185;
+         say__p=1;ParaContent();  print (PrintText) SC_133;  .L_Say185; .L_SayX185;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~Her~]
-         say__p=1;ParaContent();  print (PrintText) SC_110;  .L_Say186; .L_SayX186;
+         say__p=1;ParaContent();  print (PrintText) SC_128;  .L_Say186; .L_SayX186;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~It~]
-         say__p=1;ParaContent();  print (PrintText) SC_101;  .L_Say187; .L_SayX187;
+         say__p=1;ParaContent();  print (PrintText) SC_119;  .L_Say187; .L_SayX187;
          ! phrase 13
          ! [13: end if]
          }
@@ -29418,32 +29418,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~theirs~]
-         say__p=1;ParaContent();  print (PrintText) SC_116;  .L_Say189; .L_SayX189;
+         say__p=1;ParaContent();  print (PrintText) SC_134;  .L_Say189; .L_SayX189;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~yours~]
-         say__p=1;ParaContent();  print (PrintText) SC_117;  .L_Say190; .L_SayX190;
+         say__p=1;ParaContent();  print (PrintText) SC_135;  .L_Say190; .L_SayX190;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~his~]
-         say__p=1;ParaContent();  print (PrintText) SC_104;  .L_Say191; .L_SayX191;
+         say__p=1;ParaContent();  print (PrintText) SC_122;  .L_Say191; .L_SayX191;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~hers~]
-         say__p=1;ParaContent();  print (PrintText) SC_118;  .L_Say192; .L_SayX192;
+         say__p=1;ParaContent();  print (PrintText) SC_136;  .L_Say192; .L_SayX192;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~its~]
-         say__p=1;ParaContent();  print (PrintText) SC_106;  .L_Say193; .L_SayX193;
+         say__p=1;ParaContent();  print (PrintText) SC_124;  .L_Say193; .L_SayX193;
          ! phrase 13
          ! [13: end if]
          }
@@ -29476,32 +29476,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Theirs~]
-         say__p=1;ParaContent();  print (PrintText) SC_119;  .L_Say195; .L_SayX195;
+         say__p=1;ParaContent();  print (PrintText) SC_137;  .L_Say195; .L_SayX195;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~Yours~]
-         say__p=1;ParaContent();  print (PrintText) SC_120;  .L_Say196; .L_SayX196;
+         say__p=1;ParaContent();  print (PrintText) SC_138;  .L_Say196; .L_SayX196;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~His~]
-         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say197; .L_SayX197;
+         say__p=1;ParaContent();  print (PrintText) SC_127;  .L_Say197; .L_SayX197;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~Hers~]
-         say__p=1;ParaContent();  print (PrintText) SC_121;  .L_Say198; .L_SayX198;
+         say__p=1;ParaContent();  print (PrintText) SC_139;  .L_Say198; .L_SayX198;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~Its~]
-         say__p=1;ParaContent();  print (PrintText) SC_111;  .L_Say199; .L_SayX199;
+         say__p=1;ParaContent();  print (PrintText) SC_129;  .L_Say199; .L_SayX199;
          ! phrase 13
          ! [13: end if]
          }
@@ -29534,32 +29534,32 @@ Verb meta 'tree'
        if (((PHR_744_r11 (t_0))))  {
          ! phrase 4
          ! [4: say ~Theirs~]
-         say__p=1;ParaContent();  print (PrintText) SC_119;  .L_Say201; .L_SayX201;
+         say__p=1;ParaContent();  print (PrintText) SC_137;  .L_Say201; .L_SayX201;
          ! phrase 5
          ! [5: otherwise if the item is the player]
           } else if (((t_0 == player))) { 
          ! phrase 6
          ! [6: say ~Yours~]
-         say__p=1;ParaContent();  print (PrintText) SC_120;  .L_Say202; .L_SayX202;
+         say__p=1;ParaContent();  print (PrintText) SC_138;  .L_Say202; .L_SayX202;
          ! phrase 7
          ! [7: otherwise if the item is male and item is not neuter]
           } else if (((((Adj_70_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 8
          ! [8: say ~His~]
-         say__p=1;ParaContent();  print (PrintText) SC_109;  .L_Say203; .L_SayX203;
+         say__p=1;ParaContent();  print (PrintText) SC_127;  .L_Say203; .L_SayX203;
          ! phrase 9
          ! [9: otherwise if the item is female and item is not neuter]
           } else if (((((Adj_69_t1_v9(t_0))))) && (((~~(((Adj_71_t1_v9(t_0)))))))) { 
          ! phrase 10
          ! [10: say ~Hers~]
-         say__p=1;ParaContent();  print (PrintText) SC_121;  .L_Say204; .L_SayX204;
+         say__p=1;ParaContent();  print (PrintText) SC_139;  .L_Say204; .L_SayX204;
          ! phrase 11
          ! [11: otherwise]
          } else {
 
          ! phrase 12
          ! [12: say ~Its~]
-         say__p=1;ParaContent();  print (PrintText) SC_111;  .L_Say205; .L_SayX205;
+         say__p=1;ParaContent();  print (PrintText) SC_129;  .L_Say205; .L_SayX205;
          ! phrase 13
          ! [13: end if]
          }
@@ -29592,7 +29592,7 @@ Verb meta 'tree'
        if (((t_0 == player)))  {
          ! phrase 4
          ! [4: say ~your~]
-         say__p=1;ParaContent();  print (PrintText) SC_103;  .L_Say207; .L_SayX207;
+         say__p=1;ParaContent();  print (PrintText) SC_121;  .L_Say207; .L_SayX207;
          ! phrase 5
          ! [5: otherwise if the item acts plural]
           } else if (((PHR_744_r11 (t_0)))) { 
@@ -29605,7 +29605,7 @@ Verb meta 'tree'
 
          ! phrase 8
          ! [8: say ~[the item][apostrophe]s~]
-         say__p=1;ParaContent();  print (the) t_0; ParaContent();  print "'"; ParaContent();  print (PrintText) SC_84;  .L_Say209; .L_SayX209;
+         say__p=1;ParaContent();  print (the) t_0; ParaContent();  print "'"; ParaContent();  print (PrintText) SC_102;  .L_Say209; .L_SayX209;
          ! phrase 9
          ! [9: end if]
          }
@@ -29638,7 +29638,7 @@ Verb meta 'tree'
        if (((t_0 == player)))  {
          ! phrase 4
          ! [4: say ~Your~]
-         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say211; .L_SayX211;
+         say__p=1;ParaContent();  print (PrintText) SC_126;  .L_Say211; .L_SayX211;
          ! phrase 5
          ! [5: otherwise if the item acts plural]
           } else if (((PHR_744_r11 (t_0)))) { 
@@ -29651,7 +29651,7 @@ Verb meta 'tree'
 
          ! phrase 8
          ! [8: say ~[The item][apostrophe]s~]
-         say__p=1;ParaContent();  print (The) t_0; ParaContent();  print "'"; ParaContent();  print (PrintText) SC_84;  .L_Say213; .L_SayX213;
+         say__p=1;ParaContent();  print (The) t_0; ParaContent();  print "'"; ParaContent();  print (PrintText) SC_102;  .L_Say213; .L_SayX213;
          ! phrase 9
          ! [9: end if]
          }
@@ -29684,7 +29684,7 @@ Verb meta 'tree'
        if (((t_0 == player)))  {
          ! phrase 4
          ! [4: say ~Your~]
-         say__p=1;ParaContent();  print (PrintText) SC_108;  .L_Say215; .L_SayX215;
+         say__p=1;ParaContent();  print (PrintText) SC_126;  .L_Say215; .L_SayX215;
          ! phrase 5
          ! [5: otherwise if the item acts plural]
           } else if (((PHR_744_r11 (t_0)))) { 
@@ -29697,7 +29697,7 @@ Verb meta 'tree'
 
          ! phrase 8
          ! [8: say ~[The item][apostrophe]s~]
-         say__p=1;ParaContent();  print (The) t_0; ParaContent();  print "'"; ParaContent();  print (PrintText) SC_84;  .L_Say217; .L_SayX217;
+         say__p=1;ParaContent();  print (The) t_0; ParaContent();  print "'"; ParaContent();  print (PrintText) SC_102;  .L_Say217; .L_SayX217;
          ! phrase 9
          ! [9: end if]
          }
@@ -29729,7 +29729,7 @@ Verb meta 'tree'
     ;
       ! phrase 1
       ! [1: say ~The following options are visible on the screen:[paragraph break]~]
-      say__p=1;ParaContent();  print (PrintText) SC_122; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say218; .L_SayX218;
+      say__p=1;ParaContent();  print (PrintText) SC_140; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say218; .L_SayX218;
       ! phrase 2
       ! [2: repeat through the options table of the chosen program begin]
        @push ct_0; @push ct_1;
@@ -29760,7 +29760,7 @@ Verb meta 'tree'
     ;
       ! phrase 1
       ! [1: say ~The following options are visible on the screen:[paragraph break]~]
-      say__p=1;ParaContent();  print (PrintText) SC_122; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say221; .L_SayX221;
+      say__p=1;ParaContent();  print (PrintText) SC_140; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say221; .L_SayX221;
       ! phrase 2
       ! [2: let n be 1]
        t_1 = 1; 
@@ -29802,14 +29802,14 @@ Verb meta 'tree'
        if ((( TableFilledRows(GProperty(9, t_0,p23_message_table))  == 0)))  {
          ! phrase 2
          ! [2: say ~Your email program is on screen, but no messages are available.~]
-         say__p=1;ParaContent();  print (PrintText) SC_123;  new_line; .L_Say224; .L_SayX224;
+         say__p=1;ParaContent();  print (PrintText) SC_141;  new_line; .L_Say224; .L_SayX224;
          ! phrase 3
          ! [3: otherwise]
          } else {
 
          ! phrase 4
          ! [4: say ~The following messages are available for you to read or reply to:[line break]~]
-         say__p=1;ParaContent();  print (PrintText) SC_124; ParaContent();  new_line;  .L_Say225; .L_SayX225;
+         say__p=1;ParaContent();  print (PrintText) SC_142; ParaContent();  new_line;  .L_Say225; .L_SayX225;
          ! phrase 5
          ! [5: repeat through the message table of the chosen email begin]
           @push ct_0; @push ct_1;
@@ -29843,7 +29843,7 @@ Verb meta 'tree'
                 if ((((TableLookUpEntry(ct_0,114,ct_1) && true) == (1 && true))))  {
                   ! phrase 14
                   ! [14: say ~(R)~]
-                  say__p=1;ParaContent();  print (PrintText) SC_125;  .L_Say230; .L_SayX230;
+                  say__p=1;ParaContent();  print (PrintText) SC_143;  .L_Say230; .L_SayX230;
                   ! phrase 15
                   ! [15: end if]
                   }
@@ -29908,12 +29908,12 @@ Verb meta 'tree'
    rfalse;
 ];
 [ text_routine_0;
-say__p=1;ParaContent();  print (The) self; ParaContent();  print (PrintText) SC_126;  .L_Say233; .L_SayX233;
+say__p=1;ParaContent();  print (The) self; ParaContent();  print (PrintText) SC_144;  .L_Say233; .L_SayX233;
     rtrue;
 ];
 
 [ text_routine_1;
-say__p=1;ParaContent();  print (The) self; ParaContent();  print (PrintText) SC_37; ParaContent(); (PHR_745_r4 ());ParaContent();  print (PrintText) SC_127;  .L_Say234; .L_SayX234;
+say__p=1;ParaContent();  print (The) self; ParaContent();  print (PrintText) SC_37; ParaContent(); (PHR_745_r4 ());ParaContent();  print (PrintText) SC_145;  .L_Say234; .L_SayX234;
     rtrue;
 ];
 
@@ -29923,12 +29923,12 @@ say__p=1;ParaContent(); (Resolver_6(self,"source", 1)); .L_Say235; .L_SayX235;
 ];
 
 [ text_routine_3;
-say__p=1;ParaContent();  print (PrintText) SC_128; ParaContent();  print (PrintSnippet) parsed_number; ParaContent();  print (PrintText) SC_129;  .L_Say236; .L_SayX236;
+say__p=1;ParaContent();  print (PrintText) SC_146; ParaContent();  print (PrintSnippet) parsed_number; ParaContent();  print (PrintText) SC_147;  .L_Say236; .L_SayX236;
     rtrue;
 ];
 
 [ text_routine_4;
-say__p=1;ParaContent();  print (The) self; ParaContent();  print (PrintText) SC_130;  .L_Say237; .L_SayX237;
+say__p=1;ParaContent();  print (The) self; ParaContent();  print (PrintText) SC_148;  .L_Say237; .L_SayX237;
     rtrue;
 ];
 
@@ -29938,16 +29938,16 @@ say__p=1;ParaContent(); (Resolver_7(self,"source", 1)); .L_Say238; .L_SayX238;
 ];
 
 [ text_routine_6;
-say__p=1;ParaContent();  print (PrintText) SC_131; ParaContent();  print (the)  (Prop_53()) ; ParaContent();  print (PrintText) SC_39;  .L_Say239; .L_SayX239;
+say__p=1;ParaContent();  print (PrintText) SC_149; ParaContent();  print (the)  (Prop_53()) ; ParaContent();  print (PrintText) SC_39;  .L_Say239; .L_SayX239;
     rtrue;
 ];
 
 [ text_routine_7;
-say__p=1;ParaContent();  print (PrintText) SC_132; 
+say__p=1;ParaContent();  print (PrintText) SC_150; 
 	if (~~(((((Adj_72_t1_v9(self))))))) jump L_Say240;
-		ParaContent();  print (PrintText) SC_133; 
+		ParaContent();  print (PrintText) SC_151; 
 	jump L_SayX240; .L_Say240;
-		ParaContent();  print (PrintText) SC_134;  .L_Say241; .L_SayX240;
+		ParaContent();  print (PrintText) SC_152;  .L_Say241; .L_SayX240;
     rtrue;
 ];
 
@@ -32599,10 +32599,10 @@ Array ConstantListPointers -->
 
 Constant SC_37 = " ";
 Constant SC_67 = " appear";
-Constant SC_130 = " beeps: your selection is not one of the available choices.";
-Constant SC_126 = " chimes cheerfully.";
+Constant SC_148 = " beeps: your selection is not one of the available choices.";
+Constant SC_144 = " chimes cheerfully.";
 Constant SC_44 = " closed at the moment.";
-Constant SC_127 = " currently blank.";
+Constant SC_145 = " currently blank.";
 Constant SC_70 = " currently switched off.";
 Constant SC_41 = " displaying a generic system error.";
 Constant SC_61 = " here";
@@ -32613,9 +32613,9 @@ Constant SC_63 = " not rebootable.";
 Constant SC_51 = " or ";
 Constant SC_68 = " to be suffering a system error and has no working software available to interpret your command.";
 Constant SC_56 = " you ";
-Constant SC_129 = "~, is not one of the available choices.";
+Constant SC_147 = "~, is not one of the available choices.";
 Constant SC_9 = "~Password incorrect.~";
-Constant SC_125 = "(R)";
+Constant SC_143 = "(R)";
 Constant SC_36 = "(closing and shutting down ";
 Constant SC_34 = "(opening and starting up ";
 Constant SC_35 = ")";
@@ -32630,56 +32630,71 @@ Constant SC_19 = ">";
 Constant SC_49 = "?";
 Constant SC_8 = "A box on the screen invites you to type a password to proceed.";
 Constant SC_26 = "A delicious recipe for yellow cake.";
-Constant SC_133 = "A light next to the button glows red, indicating the button is activated.";
-Constant SC_134 = "A light next to the button is dark.";
+Constant SC_151 = "A light next to the button glows red, indicating the button is activated.";
+Constant SC_152 = "A light next to the button is dark.";
 Constant SC_5 = "A search box awaits your search terms.";
-Constant SC_77 = "Are";
+Constant SC_95 = "Are";
 Constant SC_12 = "As good-looking as ever.";
+Constant SC_88 = "Before Ratchet, Doug worked at:";
+Constant SC_89 = "Best Buy (contract) - Analysis of direct marketing campaigns (SAS, Excel)";
+Constant SC_72 = "Doug Rohde is a software developer who lives in Minneapolis, MN.  He mostly codes in Ruby these days, but has worked extensively in C# and SAS.";
+Constant SC_74 = "Doug also loves sports. He is an avid soccer fan and semi-competitive curler.";
+Constant SC_92 = "Doug graduated summa cum laude from the University of North Dakota in 2000 with a B.B.A in Business Economics.";
+Constant SC_73 = "Doug's favorite band is Phish. He has seen them 38 times.";
 Constant SC_31 = "Education";
-Constant SC_82 = "Has";
-Constant SC_81 = "Have";
-Constant SC_90 = "He";
-Constant SC_110 = "Her";
-Constant SC_121 = "Hers";
-Constant SC_115 = "Him";
-Constant SC_109 = "His";
+Constant SC_82 = "Explore Minnesota Tourism (C#, ASP.Net)  ";
+Constant SC_91 = "Federal Reserve Board of Governors, Washington, DC - Research assistant supporting economists work studying research on small business finances (SAS, Stata, Unix)";
+Constant SC_100 = "Has";
+Constant SC_99 = "Have";
+Constant SC_108 = "He";
+Constant SC_128 = "Her";
+Constant SC_139 = "Hers";
+Constant SC_133 = "Him";
+Constant SC_127 = "His";
 Constant SC_55 = "In ";
-Constant SC_78 = "Is";
+Constant SC_80 = "In addition to coding work, Doug started Lightning Club at Sport Ngin, which is an informal gathering of developers to give short talks, followed by critiques, to help developers improve their public speaking skills.";
+Constant SC_96 = "Is";
 Constant SC_2 = "It has a dull beige exterior and seems to be trying to avoid attracting attention.";
 Constant SC_17 = "It is a black metal filing cabinet with one drawer slightly ajar.";
-Constant SC_132 = "It is a large red button that is begging to be pressed. A label next to the button says ~Hyperbole Drive~.  ";
+Constant SC_150 = "It is a large red button that is begging to be pressed. A label next to the button says ~Hyperbole Drive~.  ";
 Constant SC_15 = "It is very dark. You are likely to be eaten by a grue.";
-Constant SC_101 = "It";
-Constant SC_111 = "Its";
+Constant SC_119 = "It";
+Constant SC_129 = "Its";
 Constant SC_4 = "Just the ordinary wired variety.";
+Constant SC_84 = "Leaguesafe (C#, ASP.Net);";
 Constant SC_28 = "Money for you from Nigeria!";
 Constant SC_6 = "No records found.";
 Constant SC_65 = "No such message is available.";
 Constant SC_57 = "On ";
 Constant SC_25 = "OnlineRecipes.org";
+Constant SC_81 = "Prior to working a Sport Ngin, Doug spent over 3 years at Ratchet, a client development firm in Minneapolis.  At Ratchet, Doug worked mostly in C# and ASP.Net on a variety of projects, including: ";
 Constant SC_29 = "Profile";
+Constant SC_90 = "Prudential - Analysis of life insurance retention call center data (SAS, SQL Server, Excel); Internal tool and application development (MS Access, VB.Net)";
 Constant SC_23 = "QUIT";
 Constant SC_20 = "RESTART";
 Constant SC_21 = "RESTORE a saved game";
 Constant SC_27 = "SPAM";
-Constant SC_91 = "She";
-Constant SC_92 = "That";
+Constant SC_109 = "She";
+Constant SC_75 = "Since 2009, Doug has worked at Sport Ngin in Minneapolis, where he is a Senior Engineer. He has been heavily involved with many of their products, especially those that are sports-related.  Those projects include:";
+Constant SC_76 = "Sitebuilder, the company's flagship product, a CMS with integrated tools for sports organizations.  Built on Rails and MySQL, Doug contributed to numerous features, both front- and back-end.";
+Constant SC_78 = "Sport Ngin Live, which is a subset of Stat Ngin along with Javascript client apps, allows users to record and publish game data in real time.  Doug developed an elegant Ruby DSL which allows users to easily configure the events and stats for any sport. He also worked in a product design capacity to develop the workflow of the client applications.";
+Constant SC_77 = "Stat Ngin, a service for storing and serving the platform's sports and stats related data.  Doug was responsible for building, architecting, and migrating data to this API which serves millions of requests per day. It is a Rails-based application, backed by MongoDB.";
+Constant SC_83 = "Tablespoon.com (C#, ASP.Net, jQuery, Endeca);";
+Constant SC_110 = "That";
 Constant SC_33 = "The computer needs a floppy disk.";
 Constant SC_14 = "The floppy disk is a 5.25 inch diskette with a small notch in the side.";
-Constant SC_124 = "The following messages are available for you to read or reply to:";
-Constant SC_122 = "The following options are visible on the screen:";
+Constant SC_142 = "The following messages are available for you to read or reply to:";
+Constant SC_140 = "The following options are visible on the screen:";
 Constant SC_10 = "The password field vanishes.";
 Constant SC_3 = "The typical arrangement of keys.";
-Constant SC_107 = "Their";
-Constant SC_119 = "Theirs";
-Constant SC_114 = "Them";
+Constant SC_125 = "Their";
+Constant SC_137 = "Theirs";
+Constant SC_132 = "Them";
 Constant SC_18 = "There is a black metal filing cabinet buried under a mountain of papers.";
 Constant SC_40 = "They don't make them like this anymore. You wouldn't want to damage it.";
-Constant SC_100 = "They";
-Constant SC_74 = "This is Doug's education.";
-Constant SC_73 = "This is Doug's work history.";
-Constant SC_72 = "This is about Doug";
-Constant SC_88 = "Those";
+Constant SC_118 = "They";
+Constant SC_106 = "Those";
+Constant SC_79 = "Tournament, a tournament-management application.  This manages the complex rules and data needed to manage tournament events.";
 Constant SC_42 = "Try CLICK ON (some option) WITH ";
 Constant SC_24 = "UNDO the last command";
 Constant SC_30 = "Work History";
@@ -32688,48 +32703,51 @@ Constant SC_54 = "You ";
 Constant SC_13 = "You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.";
 Constant SC_16 = "You are in a small, cluttered room.";
 Constant SC_64 = "You can't think of any good response.";
-Constant SC_131 = "You have new mail on ";
+Constant SC_149 = "You have new mail on ";
 Constant SC_66 = "You reply.";
-Constant SC_89 = "You";
+Constant SC_107 = "You";
 Constant SC_47 = "You'll have to specify what you want to click with.";
 Constant SC_46 = "You'll have to specify what you want to type on.";
 Constant SC_45 = "You'll have to specify what you want to type.";
-Constant SC_123 = "Your email program is on screen, but no messages are available.";
+Constant SC_141 = "Your email program is on screen, but no messages are available.";
 Constant SC_7 = "Your search turns up the following results:";
-Constant SC_128 = "Your selection, ~";
-Constant SC_108 = "Your";
-Constant SC_120 = "Yours";
+Constant SC_146 = "Your selection, ~";
+Constant SC_126 = "Your";
+Constant SC_138 = "Yours";
+Constant SC_85 = "a catalog management application (VB.Net, ASP.Net);";
+Constant SC_86 = "a construction job estimation tool (C#, ASP.Net)";
 Constant SC_59 = "also ";
-Constant SC_75 = "are";
+Constant SC_93 = "are";
 Constant SC_58 = "can ";
-Constant SC_85 = "es";
-Constant SC_80 = "has";
-Constant SC_79 = "have";
-Constant SC_95 = "he";
-Constant SC_105 = "her";
-Constant SC_118 = "hers";
-Constant SC_113 = "him";
-Constant SC_104 = "his";
-Constant SC_87 = "ies";
-Constant SC_76 = "is";
-Constant SC_99 = "it";
-Constant SC_106 = "its";
-Constant SC_83 = "re";
-Constant SC_84 = "s";
+Constant SC_103 = "es";
+Constant SC_98 = "has";
+Constant SC_97 = "have";
+Constant SC_113 = "he";
+Constant SC_123 = "her";
+Constant SC_136 = "hers";
+Constant SC_131 = "him";
+Constant SC_122 = "his";
+Constant SC_105 = "ies";
+Constant SC_94 = "is";
+Constant SC_117 = "it";
+Constant SC_124 = "its";
+Constant SC_101 = "re";
+Constant SC_102 = "s";
 Constant SC_60 = "see ";
 Constant SC_22 = "see some suggestions for AMUSING things to do";
-Constant SC_96 = "she";
-Constant SC_97 = "that";
+Constant SC_114 = "she";
+Constant SC_115 = "that";
 Constant SC_11 = "the";
-Constant SC_102 = "their";
-Constant SC_116 = "theirs";
-Constant SC_112 = "them";
-Constant SC_98 = "they";
-Constant SC_93 = "those";
-Constant SC_86 = "y";
-Constant SC_94 = "you";
-Constant SC_103 = "your";
-Constant SC_117 = "yours";
+Constant SC_120 = "their";
+Constant SC_134 = "theirs";
+Constant SC_130 = "them";
+Constant SC_116 = "they";
+Constant SC_111 = "those";
+Constant SC_87 = "various Regis websites (Coldfusion)";
+Constant SC_104 = "y";
+Constant SC_112 = "you";
+Constant SC_121 = "your";
+Constant SC_135 = "yours";
 
 #ifndef p0_specification; Constant p0_specification = 0; #endif;
 #ifndef p1_indefinite_appearance_tex; Constant p1_indefinite_appearance_tex = 0; #endif;
