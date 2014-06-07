@@ -7,10 +7,9 @@
     <result xml:space="preserve">
 
 
-
 resume_quest
 An Interactive Fiction by Doug Rohde
-Release 1 / Serial number 130702 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140607 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Office
 You are in a dimly lit office.  There is a dark room to the east, and a small room to the south. In the back of the room there is a large metal desk.
@@ -19,7 +18,7 @@ On the desk is an old computer.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="152">NO</temporary>
     <children>
       <child nodeId="node-0xd141680" />
@@ -654,110 +653,7 @@ There is a black metal filing cabinet buried under a mountain of papers.
       <child nodeId="node-0xd13faf0" />
       <child nodeId="node-0xd13f690" />
       <child nodeId="node-0xd13f7e0" />
-      <child nodeId="node-0xd13eea0" />
-      <child nodeId="node-0xd13f8c0" />
     </children>
-  </item>
-  <item nodeId="node-0xd13f8c0">
-    <command xml:space="preserve">open cabinet</command>
-    <result xml:space="preserve">That&apos;s not something you can open.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0xd13f930" />
-    </children>
-  </item>
-  <item nodeId="node-0xd13f930">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open the drawer, revealing a floppy disk.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0xd13fa80" />
-      <child nodeId="node-0xd13f9a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xd13f9a0">
-    <command xml:space="preserve">get disk</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="27">YES</temporary>
-    <children>
-      <child nodeId="node-0xd13fa10" />
-    </children>
-  </item>
-  <item nodeId="node-0xd13fa10">
-    <command xml:space="preserve">examine disk</command>
-    <result xml:space="preserve">You see nothing special about the floppy disk.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="26">YES</temporary>
-  </item>
-  <item nodeId="node-0xd13fa80">
-    <command xml:space="preserve">look at cabinet</command>
-    <result xml:space="preserve">In the filing cabinet is the drawer.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-  </item>
-  <item nodeId="node-0xd13eea0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">&apos;Storage Room&apos;
-You are in a small, cluttered room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0xd13ef10" />
-    </children>
-  </item>
-  <item nodeId="node-0xd13ef10">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0xd13ef80" />
-    </children>
-  </item>
-  <item nodeId="node-0xd13ef80">
-    <command xml:space="preserve">look at filing cabinet</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0xd13f770" />
-    </children>
-  </item>
-  <item nodeId="node-0xd13f770">
-    <command xml:space="preserve">open cabinet</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
   </item>
   <item nodeId="node-0xd13f7e0">
     <command xml:space="preserve">n</command>

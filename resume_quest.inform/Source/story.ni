@@ -1,4 +1,4 @@
-"resume_quest" by Doug Rohde
+"Resume Quest"
 
 Include Computers by Emily Short
 
